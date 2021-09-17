@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+   <estado>AUTORIZADO</estado>
+   <numeroAutorizacion>2608202101076000050000120010110002460125071679511</numeroAutorizacion>
+   <fechaAutorizacion>2021-08-26T19:33:17-05:00</fechaAutorizacion>
+   <ambiente>PRODUCCIÓN</ambiente>
+   <comprobante>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;factura id="comprobante" version="1.0.0"&gt;
+   &lt;infoTributaria&gt;
+      &lt;ambiente&gt;2&lt;/ambiente&gt;
+      &lt;tipoEmision&gt;1&lt;/tipoEmision&gt;
+      &lt;razonSocial&gt;GOBIERNO AUTONOMO DESCENTRALIZADO MUNICIPAL DE EL GUABO&lt;/razonSocial&gt;
+      &lt;nombreComercial&gt;MUNICIPIO DEL GUABO&lt;/nombreComercial&gt;
+      &lt;ruc&gt;0760000500001&lt;/ruc&gt;
+      &lt;claveAcceso&gt;2608202101076000050000120010110002460125071679511&lt;/claveAcceso&gt;
+      &lt;codDoc&gt;01&lt;/codDoc&gt;
+      &lt;estab&gt;001&lt;/estab&gt;
+      &lt;ptoEmi&gt;011&lt;/ptoEmi&gt;
+      &lt;secuencial&gt;000246012&lt;/secuencial&gt;
+      &lt;dirMatriz&gt;MUNICIPIO Sucre 203 y 3 de Noviembre&lt;/dirMatriz&gt;
+   &lt;/infoTributaria&gt;
+   &lt;infoFactura&gt;
+      &lt;fechaEmision&gt;26/08/2021&lt;/fechaEmision&gt;
+      &lt;dirEstablecimiento&gt;MUNICIPIO Sucre 203 y 3 de Noviembre&lt;/dirEstablecimiento&gt;
+      &lt;obligadoContabilidad&gt;SI&lt;/obligadoContabilidad&gt;
+      &lt;tipoIdentificacionComprador&gt;05&lt;/tipoIdentificacionComprador&gt;
+      &lt;razonSocialComprador&gt;ORELLANA OLMEDO LUIS RAMON&lt;/razonSocialComprador&gt;
+      &lt;identificacionComprador&gt;0702783556&lt;/identificacionComprador&gt;
+      &lt;totalSinImpuestos&gt;1.46&lt;/totalSinImpuestos&gt;
+      &lt;totalSubsidio&gt;0.0&lt;/totalSubsidio&gt;
+      &lt;totalDescuento&gt;0.0&lt;/totalDescuento&gt;
+      &lt;totalConImpuestos&gt;
+         &lt;totalImpuesto&gt;
+            &lt;codigo&gt;2&lt;/codigo&gt;
+            &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+            &lt;baseImponible&gt;1.46&lt;/baseImponible&gt;
+            &lt;valor&gt;0.0&lt;/valor&gt;
+         &lt;/totalImpuesto&gt;
+      &lt;/totalConImpuestos&gt;
+      &lt;propina&gt;0.0&lt;/propina&gt;
+      &lt;importeTotal&gt;1.46&lt;/importeTotal&gt;
+      &lt;moneda&gt;DOLAR&lt;/moneda&gt;
+      &lt;pagos&gt;
+         &lt;pago&gt;
+            &lt;formaPago&gt;01&lt;/formaPago&gt;
+            &lt;total&gt;1.46&lt;/total&gt;
+            &lt;plazo&gt;0&lt;/plazo&gt;
+            &lt;unidadTiempo&gt;dias&lt;/unidadTiempo&gt;
+         &lt;/pago&gt;
+      &lt;/pagos&gt;
+   &lt;/infoFactura&gt;
+   &lt;detalles&gt;
+      &lt;detalle&gt;
+         &lt;codigoPrincipal&gt;161&lt;/codigoPrincipal&gt;
+         &lt;codigoAuxiliar&gt;161&lt;/codigoAuxiliar&gt;
+         &lt;descripcion&gt;intereses arriendos&lt;/descripcion&gt;
+         &lt;cantidad&gt;1.0&lt;/cantidad&gt;
+         &lt;precioUnitario&gt;0.16&lt;/precioUnitario&gt;
+         &lt;descuento&gt;0.00&lt;/descuento&gt;
+         &lt;precioTotalSinImpuesto&gt;0.16&lt;/precioTotalSinImpuesto&gt;
+         &lt;impuestos&gt;
+            &lt;impuesto&gt;
+               &lt;codigo&gt;2&lt;/codigo&gt;
+               &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+               &lt;tarifa&gt;0&lt;/tarifa&gt;
+               &lt;baseImponible&gt;0.16&lt;/baseImponible&gt;
+               &lt;valor&gt;0.0&lt;/valor&gt;
+            &lt;/impuesto&gt;
+         &lt;/impuestos&gt;
+      &lt;/detalle&gt;
+      &lt;detalle&gt;
+         &lt;codigoPrincipal&gt;158&lt;/codigoPrincipal&gt;
+         &lt;codigoAuxiliar&gt;158&lt;/codigoAuxiliar&gt;
+         &lt;descripcion&gt;v arriendo&lt;/descripcion&gt;
+         &lt;cantidad&gt;1.0&lt;/cantidad&gt;
+         &lt;precioUnitario&gt;1.3&lt;/precioUnitario&gt;
+         &lt;descuento&gt;0.00&lt;/descuento&gt;
+         &lt;precioTotalSinImpuesto&gt;1.3&lt;/precioTotalSinImpuesto&gt;
+         &lt;impuestos&gt;
+            &lt;impuesto&gt;
+               &lt;codigo&gt;2&lt;/codigo&gt;
+               &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+               &lt;tarifa&gt;0&lt;/tarifa&gt;
+               &lt;baseImponible&gt;1.3&lt;/baseImponible&gt;
+               &lt;valor&gt;0.0&lt;/valor&gt;
+            &lt;/impuesto&gt;
+         &lt;/impuestos&gt;
+      &lt;/detalle&gt;
+   &lt;/detalles&gt;
+   &lt;infoAdicional&gt;
+      &lt;campoAdicional nombre="Domicilio"&gt;BARRIO 20 DE ENERO&lt;/campoAdicional&gt;
+      &lt;campoAdicional nombre="email"&gt;luis.orellana@hotmail.com   &lt;/campoAdicional&gt;
+      &lt;campoAdicional nombre="Telefono"&gt;2951281&lt;/campoAdicional&gt;
+      &lt;campoAdicional nombre="Concepto"&gt;Emisi n de MERCADOS CENTRO COMERCIAL LAS MERCEDES del propietario  ORELLANA OLMEDO LUIS RAMON  Puesto nro  22  Tipo  Valor Mensual , A o  2020, Mes  7, D a  3, Direcci n  AVDA. DEL EJERCITO Y CALLE SUCRE&lt;/campoAdicional&gt;
+      &lt;campoAdicional nombre="Referencia"&gt;21&lt;/campoAdicional&gt;
+      &lt;campoAdicional nombre="Recaudador"&gt; LIC. NELLY ESPINOZA&lt;/campoAdicional&gt;
+   &lt;/infoAdicional&gt;
+&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature828986"&gt;
+&lt;ds:SignedInfo Id="Signature-SignedInfo720493"&gt;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/&gt;
+&lt;ds:Reference Id="SignedPropertiesID178165" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature828986-SignedProperties340497"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;
+&lt;ds:DigestValue&gt;uR3TGkdc/b57KXmCC9dMqexipxM=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference URI="#Certificate11034575"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;
+&lt;ds:DigestValue&gt;jX/xhtLQaNJNn1sJkJ1uxuZWq/I=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference Id="Reference-ID-811112" URI="#comprobante"&gt;
+&lt;ds:Transforms&gt;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;
+&lt;/ds:Transforms&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;
+&lt;ds:DigestValue&gt;WolsOHpMnzALCetJKFVCPMovcl4=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;/ds:SignedInfo&gt;
+&lt;ds:SignatureValue Id="SignatureValue374362"&gt;
+WvMYuxtViyJiwzAOAmpeHdBNVJFLWbZsdp58bCRSSfIvZo/yUMhkKcA+dI0pyTCJBo6HAgiNMY0v
+jCTPG30wezqJ7zEzR7zojOp2WqCon+dshPlQ3KgxKtYfp05AMS/dbvkWRtRzcbhhEY+DOfA3wgmz
+2qgfD4l7i2ru+DG29jvha+wbFWNlBvb5+qJgUETQGOp3yvPzZMkc2Cw8YK+op7gD8YFqG0sQbq3v
+3mHgN4bVMkRDjcDEwWFNkgShdGYR5CgWUKdjUjEuzaFQpJK7dWCqC8Xg/GdpoyhyebBy7bEOCQan
+oR3nLaw20woOpC4aUrLdEsVL06DqXgL6kDzqyA==
+&lt;/ds:SignatureValue&gt;
+&lt;ds:KeyInfo Id="Certificate11034575"&gt;
+&lt;ds:X509Data&gt;
+&lt;ds:X509Certificate&gt;
+MIIKJjCCCA6gAwIBAgIEW2DbQDANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE5MDkwNjEzMTMwOFoXDTIxMDkwNjEzNDMw
+OFowgb0xCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzFBMBEGA1UEBRMKMDAwMDQwNDExMjAsBgNVBAMTJUFVUk9SQSBET0xPUkVT
+IE1BUklBIEFHVUlMQVIgUEFMT01JTk8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDL
+KvfZccT/4R7zOF+rLbDpXfFCiz2rPuUhutY3r90vDR5ROp9x/XNNflXDR5k6XTUfvpGmv67sUhvf
+R7gumhHvI6Vz4L8bjOeCDfwQcREXj13Uug50Ux17FjDXUHIyixYWmrZsFaJjIaOgTP5cJ6Xyo4OP
+slErOY+AFw79ee/ifeooNbbGAEY8r7P9MFjWzC0oWGstHgEGr6ia8CVW7bsPfweCKsu+edy5Q4pi
+tvlP8oMkYJqETriiTUXLEnUYAw1EO0CM2hP8faW2RshLS8RRfI9sFKH3uFmaajI6/h+xHSm++ktX
+fbkQcQ//XEcnoKk5eHrxM5I7kYYvsWc8mBmbAgMBAAGjggVGMIIFQjALBgNVHQ8EBAMCB4AwZwYD
+VR0gBGAwXjBcBgsrBgEEAYKoOwICATBNMEsGCCsGAQUFBwIBFj9odHRwOi8vd3d3LmVjaS5iY2Uu
+ZWMvcG9saXRpY2EtY2VydGlmaWNhZG8vcGVyc29uYS1qdXJpZGljYS5wZGYwgZEGCCsGAQUFBwEB
+BIGEMIGBMD4GCCsGAQUFBzABhjJodHRwOi8vb2NzcC5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dl
+Yi9zdGF0dXMvb2NzcDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AxLmVjaS5iY2UuZWMvZWpiY2Ev
+cHVibGljd2ViL3N0YXR1cy9vY3NwME8GCisGAQQBgqg7AwoEQRM/R09CSUVSTk8gQVVUT05PTU8g
+REVTQ0VOVFJBTElaQURPIE1VTklDSVBBTCBERUwgQ0FOVE9OIEVMIEdVQUJPMB0GCisGAQQBgqg7
+AwsEDxMNMDc2MDAwMDUwMDAwMTAaBgorBgEEAYKoOwMBBAwTCjA3MDMwNzYxMzMwJAYKKwYBBAGC
+qDsDAgQWExRBVVJPUkEgRE9MT1JFUyBNQVJJQTAXBgorBgEEAYKoOwMDBAkTB0FHVUlMQVIwGAYK
+KwYBBAGCqDsDBAQKEwhQQUxPTUlOTzAYBgorBgEEAYKoOwMFBAoTCFRFU09SRVJBMCoGCisGAQQB
+gqg7AwcEHBMaU1VDUkUgMjAzIFkgMyBERSBOT1ZJRU1CUkUwGQYKKwYBBAGCqDsDCAQLEwkwNzM3
+MDExODAwGAYKKwYBBAGCqDsDCQQKEwhFbCBHdWFibzAXBgorBgEEAYKoOwMMBAkTB0VDVUFET1Iw
+IAYKKwYBBAGCqDsDMwQSExBTT0ZUV0FSRS1BUkNISVZPMCUGA1UdEQQeMByBGm1hcmlhYWd1aWxh
+cjc0QGhvdG1haWwuY29tMIIB3wYDVR0fBIIB1jCCAdIwggHOoIIByqCCAcaGgdVsZGFwOi8vYmNl
+cWxkYXBzdWJwMS5iY2UuZWMvY249Q1JMODI5LGNuPUFDJTIwQkFOQ08lMjBDRU5UUkFMJTIwREVM
+JTIwRUNVQURPUixsPVFVSVRPLG91PUVOVElEQUQlMjBERSUyMENFUlRJRklDQUNJT04lMjBERSUy
+MElORk9STUFDSU9OLUVDSUJDRSxvPUJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1IsYz1F
+Qz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2WGNGh0dHA6Ly93d3cuZWNpLmJjZS5lYy9D
+UkwvZWNpX2JjZV9lY19jcmxmaWxlY29tYi5jcmykgbUwgbIxCzAJBgNVBAYTAkVDMSIwIAYDVQQK
+ExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcwNQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklD
+QUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4wDAYDVQQHEwVRVUlUTzElMCMGA1UEAxMcQUMg
+QkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjEPMA0GA1UEAxMGQ1JMODI5MCsGA1UdEAQkMCKADzIw
+MTkwOTA2MTMxMzA4WoEPMjAyMTA5MDYxMzQzMDhaMB8GA1UdIwQYMBaAFEii3yMfHfgsUXqMA81J
+MqUJwZSrMB0GA1UdDgQWBBT1tqQ3Ej3FZCzWQFf3f0IGP6/v8jAJBgNVHRMEAjAAMBkGCSqGSIb2
+fQdBAAQMMAobBFY4LjEDAgSwMA0GCSqGSIb3DQEBCwUAA4ICAQCclBmR1r67P8GU7jRL9oaDgKK/
+49qoTvWBDLCl10cKE4FhlQelqCj0i3Z8wW14h8lsRaGhnyZ8DP8qeGwdP/3XQmyIwKV/SB66AJJN
+bWtbPwmQUHQRfeMbDEdix7iK45tBBLzh3HAU5lg8tArl6M71pKxRm+Zv/BzvZaLjagXcRwBRqq+Z
+BGR6WxzlFUesbQsuLYafHW7dGK+sD69Y8TZutv7NZasgtXshDJzVlTY2Ozwfhw97a1O9AXmc/2sK
+EyGvaU362ctWpCJ2xrXq8d9vUJX1lrEyy+ZBd9JSgyYJb1IxFMvk4qxZhlrWDAfWC0sWnyWQrPy7
+C2GwV122BfXIk4gCBEOaOg/87GVkQ+bNiL+V22eJP3nFVPMHQmtz0sp4gKfPcqVmwyVdvuNe+TGp
+Mb4x6EHWc+dtTFs8Hkt2f56Sypu96UDXTSz5bmR3kAih0NcdrVbJBH5pyn2qzmgbPxXwitWVaXss
+G26SGunytTni/7KNO15q+h8EVP9FilsqFbEOg8KCwsbKnHwyYon1so67+fy6z8SKBCDYsD5KXoen
+GZd+0RZ3xfkEyK1x4bumVux68hPU7L39q4QIVPffoWHPzbjImH7kclXugo6l7rYILEvYiNln4aH9
+NQ3ENzouLvOhFwNq2UPo5sVxV1nIC8IIKw7WO4SNUJG1oNPq1w==
+&lt;/ds:X509Certificate&gt;
+&lt;/ds:X509Data&gt;
+&lt;ds:KeyValue&gt;
+&lt;ds:RSAKeyValue&gt;
+&lt;ds:Modulus&gt;
+yyr32XHE/+Ee8zhfqy2w6V3xQos9qz7lIbrWN6/dLw0eUTqfcf1zTX5Vw0eZOl01H76Rpr+u7FIb
+30e4LpoR7yOlc+C/G4zngg38EHERF49d1LoOdFMdexYw11ByMosWFpq2bBWiYyGjoEz+XCel8qOD
+j7JRKzmPgBcO/Xnv4n3qKDW2xgBGPK+z/TBY1swtKFhrLR4BBq+omvAlVu27D38HgirLvnncuUOK
+Yrb5T/KDJGCahE64ok1FyxJ1GAMNRDtAjNoT/H2ltkbIS0vEUXyPbBSh97hZmmoyOv4fsR0pvvpL
+V325EHEP/1xHJ6CpOXh68TOSO5GGL7FnPJgZmw==
+&lt;/ds:Modulus&gt;
+&lt;ds:Exponent&gt;AQAB&lt;/ds:Exponent&gt;
+&lt;/ds:RSAKeyValue&gt;
+&lt;/ds:KeyValue&gt;
+&lt;/ds:KeyInfo&gt;
+&lt;ds:Object Id="Signature828986-Object572500"&gt;&lt;etsi:QualifyingProperties Target="#Signature828986"&gt;&lt;etsi:SignedProperties Id="Signature828986-SignedProperties340497"&gt;&lt;etsi:SignedSignatureProperties&gt;&lt;etsi:SigningTime&gt;2021-08-26T19:33:16-05:00&lt;/etsi:SigningTime&gt;&lt;etsi:SigningCertificate&gt;&lt;etsi:Cert&gt;&lt;etsi:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;&lt;ds:DigestValue&gt;Efv8qifmNYvM96Fq2d4YwOToDVI=&lt;/ds:DigestValue&gt;&lt;/etsi:CertDigest&gt;&lt;etsi:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;1533074240&lt;/ds:X509SerialNumber&gt;&lt;/etsi:IssuerSerial&gt;&lt;/etsi:Cert&gt;&lt;/etsi:SigningCertificate&gt;&lt;/etsi:SignedSignatureProperties&gt;&lt;etsi:SignedDataObjectProperties&gt;&lt;etsi:DataObjectFormat ObjectReference="#Reference-ID-811112"&gt;&lt;etsi:Description&gt;comprobante&lt;/etsi:Description&gt;&lt;etsi:MimeType&gt;text/xml&lt;/etsi:MimeType&gt;&lt;/etsi:DataObjectFormat&gt;&lt;/etsi:SignedDataObjectProperties&gt;&lt;/etsi:SignedProperties&gt;&lt;/etsi:QualifyingProperties&gt;&lt;/ds:Object&gt;&lt;/ds:Signature&gt;&lt;/factura&gt;</comprobante>
+   <mensajes/>
+</autorizacion>

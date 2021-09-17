@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mosaddek">
+
+    <!--favicon icon-->
+    <link rel="icon" type="image/png" href="{% static 'assets/img/favicon.png' %}">
+
+    <title>Documentos Electrónicos</title>
+
+    <!--web fonts-->
+    <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <!--bootstrap styles-->
+    <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!--icon font-->
+    <link href="{% static 'assets/vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/dashlab-icon/dashlab-icon.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/simple-line-icons/css/simple-line-icons.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/themify-icons/css/themify-icons.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/weather-icons/css/weather-icons.min.css' %}" rel="stylesheet">
+
+    <!--jquery ui-->
+    <link href="{% static 'assets/vendor/jquery-ui/jquery-ui.min.css' %}" rel="stylesheet">
+
+    <!--iCheck-->
+    <link href="{% static 'assets/vendor/icheck/skins/all.css' %}" rel="stylesheet">
+
+    <!--custom styles-->
+    <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="{% static 'assets/vendor/html5shiv.js' %}"></script>
+    <script src="{% static 'assets/vendor/respond.min.js' %}"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="app-body">
+    <div class="content-wrapper">
+        <div class="container-fluid">
+            <div class="card card-shadow mb-4">
+                <div class="card-header border-0">
+                    <div class="custom-title-wrap bar-warning">
+                        <div class="custom-title">Ingrese el numero del comprobante</div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form action="" method="get" class="input-group mb-3">
+                        <input type="text" class="form-control" name="q" id="q" placeholder="001-000-000000000"
+                               value="{{ request.GET.q }}">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button">Búscar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card card-shadow mb-4 ">
+                        <div class="card-header border-0">
+                            <div class="custom-title-wrap bar-warning">
+                                <div class="custom-title">Resultados de la Búsqueda</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0 list-widget">
+                                {% if not documentos %}
+                                    <li>Nada que mostrar...!</li>
+                                {% endif %}
+                                {% for documento in documentos %}
+                                    <li>
+                                        <div class="media mb-3">
+                                            <div class="mr-3 rounded-circle bg-pink st-alphabet">
+                                                D
+                                                <span class="status bg-success"></span>
+                                            </div>
+                                            <div class="media-body list-widget-border">
+                                                <div class="float-left">
+                                                    <h6 class="text-uppercase mb-0">{{ documento.cliente }} <span
+                                                            class="text-warning pl-3">{{ documento.cedula_ruc }}</span>
+                                                    </h6>
+                                                    <span class="text-muted">Clave de Acceso: {{ documento.clave_acceso }}</span><br>
+                                                    <span class="text-muted">Emisor: {{ documento.razon_social }}</span><br>
+                                                    <span class="text-muted">Importe: {{ documento.total }}</span>
+                                                </div>
+                                                <div class=" float-right">
+                                                    <small class="text-muted">{{ documento.fecha }}</small><br>
+                                                    <small class="text-danger pl-3"
+                                                           style="font-weight: bold">{{ documento.numero }}</small><br>
+                                                    <a href="{{ documento.ruta }}" target="_blank"
+                                                       class="btn btn-success"><i class="fa fa-file-pdf-o"></i> PDF</a>
+                                                    <a href="{{ documento.ruta_xml }}" target="_blank"
+                                                       class="btn btn-primary"><i class="fa fa-file-code-o"></i> XML</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="sticky-footer">
+            <div class="container">
+                <div class="text-center">
+                    <img src="{% static 'El Guabo1.png' %}" style="width: 200px" alt="">
+                </div>
+            </div>
+        </footer>
+        <!--/footer-->
+    </div>
+    <!--/main content wrapper-->
+</div>
+<!--basic scripts-->
+<script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'assets/vendor/jquery-ui/jquery-ui.min.js' %}"></script>
+<script src="{% static 'assets/vendor/popper.min.js' %}"></script>
+<script src="{% static 'assets/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'assets/vendor/jquery.dcjqaccordion.2.7.js' %}"></script>
+<script src="{% static 'assets/vendor/jquery.nicescroll.min.js' %}"></script>
+<!--to do list-->
+<script src="{% static 'assets/vendor/icheck/skins/icheck.min.js' %}"></script>
+<!--to do list initialization-->
+<script src="{% static 'assets/vendor/js-init/init-todo-list.js' %}"></script>
+
+<!--[if lt IE 9]>
+    <script src="{% static 'assets/vendor/modernizr.js' %}"></script>
+    <![endif]-->
+
+<!--basic scripts initialization-->
+<script src="{% static 'assets/js/scripts.js' %}"></script>
+</body>
+</html>
+
