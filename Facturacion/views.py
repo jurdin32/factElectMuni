@@ -54,6 +54,7 @@ def index(request):
     contexto={
         'documentos':documentos
     }
+
     return render(request,'index.html',contexto)
 
 def fecha(request):
