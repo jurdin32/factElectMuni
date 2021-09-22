@@ -16,3 +16,12 @@ class Documentos(models.Model):
     ruta=models.URLField(max_length=300)
     ruta_xml=models.URLField(max_length=300)
 
+    def save(self, force_insert=False, force_update=False, using=None,
+             update_fields=None):
+        archivo = "FACTURA_%s"%self.numero
+        self.ruta='http://siim.elguabo.gob.ec:8080/recursos_siim/FE/autorizados/%s.pdf' % archivo
+        self.ruta_xml = 'http://siim.elguabo.gob.ec:8080/recursos_siim/FE/autorizados/%s.xml' % archivo
+        
+        super(Documentos, self).save()
+
+

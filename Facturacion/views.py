@@ -16,16 +16,19 @@ def index(request):
     pdf=""
     xml=""
     if request.GET.get('q'):
-        archivo="FACTURA_%s"%request.GET.get('q')
-        xml = 'http://siim.elguabo.gob.ec:8080/recursos_siim/FE/autorizados/%s.xml'%archivo
-        myfile = requests.get(xml)
-        dic_xml = xmltodict.parse(myfile.content)
-        #print(dic_xml)
-        documento=xmltodict.parse(dic_xml['autorizacion']['comprobante'])
-        open('./static/'+archivo+'.xml', 'wb').write(myfile.content)
-        pdf = 'http://siim.elguabo.gob.ec:8080/recursos_siim/FE/autorizados/%s.pdf' % archivo
-        myfile = requests.get(pdf)
-        open('./static/'+archivo+'.pdf', 'wb').write(myfile.content)
+        try:
+            archivo="FACTURA_%s"%request.GET.get('q')
+            xml = 'http://siim.elguabo.gob.ec:8080/recursos_siim/FE/autorizados/%s.xml'%archivo
+            myfile = requests.get(xml)
+            dic_xml = xmltodict.parse(myfile.content)
+            #print(dic_xml)
+            documento=xmltodict.parse(dic_xml['autorizacion']['comprobante'])
+            open('./static/'+archivo+'.xml', 'wb').write(myfile.content)
+            pdf = 'http://siim.elguabo.gob.ec:8080/recursos_siim/FE/autorizados/%s.pdf' % archivo
+            myfile = requests.get(pdf)
+            open('./static/'+archivo+'.pdf', 'wb').write(myfile.content)
+        except:
+            pass
         try:
             Documentos.objects.get(clave_acceso=documento['factura']['infoTributaria']['claveAcceso'])
         except:
@@ -54,7 +57,6 @@ def index(request):
     contexto={
         'documentos':documentos
     }
-
     return render(request,'index.html',contexto)
 
 def fecha(request):
